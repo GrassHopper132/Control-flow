@@ -55,14 +55,14 @@ console.log("Radius of the expanded garden (meters):", expandedRadius);
 
 
 console.log("\n--- Part 3 ---");
-
+try {
     let badStartPlants = 100;
     let requiredSpace = badStartPlants * spacePerPlant;
     
     // Check if the space we need is more than the space we have
     if (requiredSpace > area) {
         throw new Error("Garden capacity exceeded! You need " + requiredSpace + " sq meters, but only have " + area + " sq meters.");
-
+    }
     
     console.log("Planting successful.");
     
