@@ -70,7 +70,7 @@ try {
     console.log("ERROR CAUGHT: " + error.message);
 
 
-// 78.5375 area, max capacity 98.171875
+// Garden capacity exceeded! You need 80 sq meters, but only have 78.5375 sq meters
 
 
 
